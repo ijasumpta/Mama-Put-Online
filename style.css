@@ -707,21 +707,6 @@ body {
         flex-wrap: wrap; 
     }
 
-    /* Force the search bar to its own row at the top right/full width */
-    /* .search-container {
-        order: 3;
-        width: 40%;
-        margin-top: 15px;
-    } */
-    
-    /* .search-container form {
-        width: 100%;
-    } */
-    
-    /* .search-container input {
-        flex-grow: 1; 
-    } */
-
     /* Show the Hamburger Icon */
     .hamburger-label {
         display: flex;
