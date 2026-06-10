@@ -869,3 +869,21 @@ body {
         font-size: 1.6rem;
     }
 }
+
+@media screen and (max-width: 320px){
+        /* Force the search bar to its own row at the top right/full width */
+    .search-container {
+        order: 3;
+        width: 40%;
+        margin-top: 15px;
+    }
+    
+    .search-container form {
+        width: 50%;
+    }
+    
+    .search-container input {
+        flex-grow: 1; /* Makes search input take full width */
+    }
+
+}
